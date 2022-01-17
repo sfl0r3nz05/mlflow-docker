@@ -8,11 +8,6 @@
 2. Run `docker compose up`
 3. Open up http://localhost:5000 for MlFlow, and http://localhost:9001/ to browse your files in S3 artifact store
 
-
-**👇Video tutorial how to set it up on Microsoft Azure 👇**
-
-[![Youtube tutorial](https://user-images.githubusercontent.com/9840635/144674240-f1ede224-410a-4b77-a7b8-450f45cc79ba.png)](https://www.youtube.com/watch?v=ma5lA19IJRA)
-
 # Features
  - One file setup (.env)
  - Minio S3 artifact store with GUI
@@ -22,9 +17,6 @@
 
 
 ## How to use in ML development in python
-
-<details>
-<summary>Click to show</summary>
 
 1. Configure your client-side
 
@@ -48,11 +40,3 @@ python ./quickstart/mlflow_tracking.py
 ```shell
 MLFLOW_S3_ENDPOINT_URL=http://localhost:9000 MLFLOW_TRACKING_URI=http://localhost:5000 mlflow run git@github.com:databricks/mlflow-example.git -P alpha=0.5
 ```
-
-</details>
- 
-
-## Licensing
-Copyright (c) 2021 Tomasz Dłuski
-
-Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License by reviewing the file [LICENSE](./LICENSE) in the repository.
